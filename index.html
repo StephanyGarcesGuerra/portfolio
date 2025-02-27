@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Stephany Garces Guerra</title>
+</head>
+<body>
+    <div class="nav"> 
+        <ul class="header">
+            <li><a class="header-link" href="#Home">Home</a></li>
+            <li><a class="header-link" href="#About-Me">About Me</a></li>
+            <li><a class="header-link" href="#Projects">Projects</a></li>
+            <li><a class="header-link" href="#Contact">Contact</a></li>
+          </ul>
+    </div>
+    <h1>
+        Home
+    </h1>
+    <section class="home">
+        <img src="Stephany Garces Headshot copy.jpeg" alt="Stephany-Garces-Guerra"
+        style="width: 200px; height: 300px;" class="profile-picture">
+        <p> 
+            Hi, I’m Stephany Garces Guerra—an MBA candidate, web developer, and aspiring consultant with a passion for problem-solving and innovation. My journey spans marketing, program management, and tech, blending strategic thinking with hands-on execution. Whether it’s building user-friendly web applications, crafting data-driven solutions, or leading teams toward impactful goals, I thrive in dynamic environments. Let’s connect and create something meaningful!
+        </p>
+    </section>
+
+    <h1>
+        About Me
+    </h1>
+
+    <section class="about-me">
+        <p>
+            My journey is a fusion of creativity, strategy, and technology. With a background in business and program management, I’ve built a career that bridges community impact, professional development, and tech-driven problem-solving. As the co-founder of Gratis Grove, I’ve led initiatives that address food insecurity and education access. My transition into tech began with The Knowledge House Web Development Innovation Fellowship, where I mastered full-stack development.  As tech is ever evolving, I am also actively expanding my skills other languages like Python. Currently pursuing my MBA with a concentration in Computer Information Systems, I leverage my diverse experiences to develop innovative solutions at the intersection of business and technology.
+Beyond academics and professional work, I’ve been actively involved in leadership roles, from organizing events for graduate students to supporting Latinx professionals through Prospanica NY. My adaptability, quick learning ability, and problem-solving mindset drive me to create digital experiences that are both functional and impactful.
+On a fun side, I am very interested in strength training, waking up at 4:30am to do so 5x a week, martial arts, recently started Brazilian Jiu Jitsu, and more recently earned my scuba diving certification. 
+
+        </p>
+        <div class="skills"> 
+            <ul> 
+                <H3>Skills</H3>
+                <li> Full-Stack Web Development - MERN </li>
+                <li> Project & Program Management </li>
+                <li> Data Analysis & SQL</li>
+                <li> Communication & Leadership </li>
+              </ul>
+        </div>
+    </section>
+    <div>
+        <button class="button" onclick='location.href="https://drive.google.com/file/d/1Fy_3XA4uOhv7eIbq9KJ0tYpfY3JW9rYu/view?usp=drive_link"'>
+            <i class="resume"></i> Download Resume 
+        </button>
+    </div>
+
+    <h1>Projects </h1>
+    <section class="projects"> 
+        <div class="project-one"> 
+            <img src="pexels-chevanon-1108099.jpg" alt="goldies"
+            style="width: 200px; height: 300px;">
+            <h3>PROJECT: GOLDIE</h3>
+            <p> A networking platform for aspiring and professional developers to connect, collaborate, and share resources. Built using React, Node.js, and MongoDB, it features real-time chat, profile creation, and project collaboration tools.
+            </p>
+        </div>
+        <div class="project-two">
+             <img src="pexels-jozef-feher-356581-1633522.jpg" alt="dog-wit-stick"
+            style="width: 200px; height: 300px;">
+            <h3>PROJECT: DOG WITH STICK</h3>
+            <P>
+                A job application tracking tool that helps users stay organized throughout their job search. Includes automated reminders, interview prep resources, and a dashboard for tracking application statuses. Developed with Express.js, PostgreSQL, and React.
+            </P>
+        </div>
+        <div class="three-boxers">
+            <img src="pexels-nancy-guth-269359-850602.jpg" alt="three-boxers"
+            style="width: 200px; height: 300px;">
+            <h3>PROJECT: THREE BOXERS</h3>
+            <p>
+                A fitness and nutrition tracking app that allows users to log workouts, track protein intake, and get personalized meal suggestions. Designed with user-friendly UI/UX principles using Next.js, Firebase, and Tailwind CSS.
+            </p>
+        </div>
+      
+    </section>
+    <div class="github">
+        <button class="button" onclick='location.href="https://github.com/StephanyGarcesGuerra"'>
+            <i class="github"></i> Github 
+        </button>
+    </div>
+
+    <h1>Contact Form</h1>
+    <section class="contact">
+        <form action="contact">
+            <label for="name"> Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Name"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" placeholder="Enter email"> <br>
+
+            <label for="body">Message:</label><br>
+            <textarea id="body" name="body" placeholder="What would you like to contact me about?" ></textarea>
+            <!-- <input type="email" id="body" name="body"> <br><br> -->
+
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+</body>
+</html>
